@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+tools:context=".Empleesikea">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content">
+    <TextView
+        android:id="@+id/textdashboard"
+        android:textSize="21sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_dashboard"
+        android:textColor="#ffff"
+        tools:ignore="RelativeOverlap">
+    </TextView>
+    <TextView
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/textdashboard"
+        android:id="@+id/textbelow"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item"
+        android:textColor="#52baff">
+
+    </TextView>
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/latrache"
+        android:layout_height="82dp"
+        android:layout_width="82dp"
+        tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp">
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinnerbox"/>
+                <CalendarView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/Button"
+                    android:layout_marginTop="12dp"
+                    android:textSize="18sp"
+                    android:text="Add Event"
+                    android:onClick="AddCalendarEvent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

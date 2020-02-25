@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back"
+        android:textSize="30sp"
+/>
+
+        <Button
+            android:id="@+id/DialPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DialPhone"
+/>
+    <Button
+        android:id="@+id/Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Toast"
+        />
+    <Button
+        android:id="@+id/ShowLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Showlocation"
+        />
+    <Button
+        android:id="@+id/OpenWebPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Web Page"
+        />
+    <Button
+        android:id="@+id/ViewIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Intent"
+        />
+    <Button
+    android:id="@+id/LetsGetPro"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Let's Get Profo.."
+    />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

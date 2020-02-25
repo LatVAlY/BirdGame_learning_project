@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="calendar">calendar</string>
+    <string name="date">date</string>
+    <string name="item">Item</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string-array name="names">
+        <item>home</item>
+        <item>Face</item>
+        <item>wa</item>
+        <item>line</item>
+    </string-array>
+</resources>

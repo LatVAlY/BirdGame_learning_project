@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "621709530838",
+    "firebase_url": "https://ikea-worker.firebaseio.com",
+    "project_id": "ikea-worker",
+    "storage_bucket": "ikea-worker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621709530838:android:27d9f2f63ead2e3e62db77",
+        "android_client_info": {
+          "package_name": "com.example.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621709530838-9qvu3j3s26ag26ssl815qinqreer045a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginapp",
+            "certificate_hash": "a818f54195d73b3fc7165d00af9812d133b70c02"
+          }
+        },
+        {
+          "client_id": "621709530838-39vg92r2dqcd9fd719o6vdtbv78hrhfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTQlDPVqqsmlxD8b-xLGdmQGKwRe6R3WY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621709530838-39vg92r2dqcd9fd719o6vdtbv78hrhfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
