@@ -29,6 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class MainSellerActivity extends AppCompatActivity {
 
+    private Button logoutseller;
     private TextView txtDashboardSeller, txtProductsSeller, txtOrdersSeller, welcomeText;
     private ImageView imgDashboard, imgProducts, imgOrders;
     FirebaseAuth auth;
