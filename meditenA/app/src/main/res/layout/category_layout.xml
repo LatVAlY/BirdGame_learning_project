@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@color/colorCardview"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="85dp"
+    android:layout_height="100dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/category_image_circle"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/colorPrimaryDark"
+        android:src="@drawable/iphone1"
+        />
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:ellipsize="end"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/category_image_circle"
+        android:text="@string/category_name"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

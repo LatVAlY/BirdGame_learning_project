@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.ProductsDetails.ProductsDetailsFragment">
+    <TextView
+        android:id="@+id/product_name_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="SONY Heaedphones"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <RelativeLayout
+       android:layout_below="@+id/product_name_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cardview"
+        android:layout_margin="20dp">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/product_image_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/elegant_number_products"
+        android:padding="50dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/iphonephone"
+        android:scaleType="centerCrop" />
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/elegant_number_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        app:textSize="14sp"
+        app:initialNumber="1">
+
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-50dp"
+        app:cardCornerRadius="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <RelativeLayout
+                android:id="@+id/relative_details3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/product_discount_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/rectangle_11"
+                    android:gravity="center"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:text="discount"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/product_price_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+                    android:text="Price"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/euro_sign_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toRightOf="@+id/product_price_details"
+                    android:text=" € "
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_centerVertical="true"
+                    android:text="Price :"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+<TextView
+    android:id="@+id/description_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Description :"
+    android:layout_marginTop="10dp"
+    android:layout_alignParentStart="true"
+    android:layout_marginStart="20dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_centerVertical="true"
+    android:layout_below="@+id/relative_details3"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    />
+            <TextView
+                android:id="@+id/product_description_details"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/description_title"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/add_to_cart_button"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="25sp"
+                android:scrollbars="vertical"
+                android:text="HP 15 Core i5 8th gen 15.6-inch FHD Laptop (8GB/1TB HDD/Windows 10 Home/Sparkling Black /2.04 kg), 15q-ds0010TU"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/add_to_cart_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/button_details1"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="Add to the cart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:drawableEnd="@drawable/ic_shopping_cart_black_24dp"
+                android:paddingEnd="30dp"
+                android:paddingBottom="5dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

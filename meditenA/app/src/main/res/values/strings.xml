@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">mediten</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="cart">Cart</string>
+    <string name="settings">Settings</string>
+    <string name="favorite">Favorite</string>
+    <string name="search">Search</string>
+    <string name="product_name">Product Name…</string>
+    <string name="category_name">Category Name</string>
+    <string name="categories">Categories</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="customer_address">Customer Address</string>
+    <string name="register_passwrod">Passwrod</string>
+    <string name="register_name">Full Name</string>
+    <string name="create_seller_account_btn">Create seller account</string>
+    <string name="already_have_an_account">Already have an Account?Login</string>
+    <string name="you_don_t_have_an_account_register">You don\'t have an account?Register</string>
+    <string name="dashbord">DashBord</string>
+</resources>
